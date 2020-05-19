@@ -13,6 +13,14 @@
 		4BFA307E24729ECC00A7E5E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BFA307D24729ECC00A7E5E2 /* Assets.xcassets */; };
 		4BFA308124729ECC00A7E5E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BFA308024729ECC00A7E5E2 /* Preview Assets.xcassets */; };
 		4BFA308424729ECC00A7E5E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BFA308224729ECC00A7E5E2 /* LaunchScreen.storyboard */; };
+		4BFA308C24729F2B00A7E5E2 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA308B24729F2B00A7E5E2 /* Route.swift */; };
+		4BFA308E24729F5600A7E5E2 /* RouteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA308D24729F5600A7E5E2 /* RouteData.swift */; };
+		4BFA309024729F7900A7E5E2 /* RouteEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA308F24729F7900A7E5E2 /* RouteEditor.swift */; };
+		4BFA309224729F9F00A7E5E2 /* RouteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA309124729F9F00A7E5E2 /* RouteList.swift */; };
+		4BFA309424729FC500A7E5E2 /* RouteRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA309324729FC500A7E5E2 /* RouteRow.swift */; };
+		4BFA30982472BFA300A7E5E2 /* Separate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA30972472BFA300A7E5E2 /* Separate.swift */; };
+		4BFA309E2472E9FC00A7E5E2 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA309D2472E9FC00A7E5E2 /* PieChartView.swift */; };
+		4BFA30A02472EA0B00A7E5E2 /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA309F2472EA0B00A7E5E2 /* PieChart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		4BFA308024729ECC00A7E5E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4BFA308324729ECC00A7E5E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BFA308524729ECC00A7E5E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BFA308B24729F2B00A7E5E2 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		4BFA308D24729F5600A7E5E2 /* RouteData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteData.swift; sourceTree = "<group>"; };
+		4BFA308F24729F7900A7E5E2 /* RouteEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteEditor.swift; sourceTree = "<group>"; };
+		4BFA309124729F9F00A7E5E2 /* RouteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteList.swift; sourceTree = "<group>"; };
+		4BFA309324729FC500A7E5E2 /* RouteRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteRow.swift; sourceTree = "<group>"; };
+		4BFA30972472BFA300A7E5E2 /* Separate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Separate.swift; sourceTree = "<group>"; };
+		4BFA309D2472E9FC00A7E5E2 /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
+		4BFA309F2472EA0B00A7E5E2 /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +75,14 @@
 				4BFA307724729ECB00A7E5E2 /* AppDelegate.swift */,
 				4BFA307924729ECB00A7E5E2 /* SceneDelegate.swift */,
 				4BFA307B24729ECB00A7E5E2 /* ContentView.swift */,
+				4BFA30972472BFA300A7E5E2 /* Separate.swift */,
+				4BFA308B24729F2B00A7E5E2 /* Route.swift */,
+				4BFA308D24729F5600A7E5E2 /* RouteData.swift */,
+				4BFA308F24729F7900A7E5E2 /* RouteEditor.swift */,
+				4BFA309124729F9F00A7E5E2 /* RouteList.swift */,
+				4BFA309324729FC500A7E5E2 /* RouteRow.swift */,
+				4BFA309D2472E9FC00A7E5E2 /* PieChartView.swift */,
+				4BFA309F2472EA0B00A7E5E2 /* PieChart.swift */,
 				4BFA307D24729ECC00A7E5E2 /* Assets.xcassets */,
 				4BFA308224729ECC00A7E5E2 /* LaunchScreen.storyboard */,
 				4BFA308524729ECC00A7E5E2 /* Info.plist */,
@@ -146,8 +170,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BFA309424729FC500A7E5E2 /* RouteRow.swift in Sources */,
 				4BFA307824729ECB00A7E5E2 /* AppDelegate.swift in Sources */,
+				4BFA308C24729F2B00A7E5E2 /* Route.swift in Sources */,
+				4BFA309024729F7900A7E5E2 /* RouteEditor.swift in Sources */,
 				4BFA307A24729ECB00A7E5E2 /* SceneDelegate.swift in Sources */,
+				4BFA30A02472EA0B00A7E5E2 /* PieChart.swift in Sources */,
+				4BFA308E24729F5600A7E5E2 /* RouteData.swift in Sources */,
+				4BFA309E2472E9FC00A7E5E2 /* PieChartView.swift in Sources */,
+				4BFA309224729F9F00A7E5E2 /* RouteList.swift in Sources */,
+				4BFA30982472BFA300A7E5E2 /* Separate.swift in Sources */,
 				4BFA307C24729ECB00A7E5E2 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
