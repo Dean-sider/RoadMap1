@@ -14,18 +14,12 @@ struct PieChartView: View {
             var count:[Double] = [0,0]
             var totalcount:Int = 0
             var angles:[Angle]
-          /* @State private var Chart = "分析結果"
-           var selectchart = ["圓餅圖","柱狀圖"]
-           var type:[Double] = [0,0]
-           let color = UIColor(red: 175/255, green: 220/255, blue: 195/255, alpha: 0.3)*/
-           
            init(routesData : RouteData){
                self.routesData = routesData
                for data in routesData.routes{
                     totalcount += 1
                 if data.Ocean == 0{
                      count[0] += 1
-                    
                 }
                 else if data.Ocean == 1{
                     count[1] += 1
@@ -40,7 +34,6 @@ struct PieChartView: View {
                 degree += 360 * percentage
             }
     }
-    
     var body: some View {
         VStack{
         if self.routesData.routes.count != 0{
@@ -52,7 +45,7 @@ struct PieChartView: View {
                 PieChart( startAngle:self.angles[1] , endAngle:self.angles[0])
                     .fill(Color.blue)
             }
-            .frame(width:230,height:230)
+            .frame(width:300,height:350)
             .padding()
             HStack{
                 Image(systemName:"square.fill")

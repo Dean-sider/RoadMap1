@@ -25,8 +25,6 @@ struct RouteEditor: View {
                 TextField("輸入路線", text: $map)
                 .padding()
                 .overlay(RoundedRectangle(cornerRadius: 20).stroke(Color.yellow, lineWidth: 3))
-                
-                
                 Picker("選擇海／山線", selection: $Ocean) {
                     ForEach(0..<self.ocean.count){ (index) in
                                    Text(self.ocean[index])
@@ -72,7 +70,7 @@ struct RouteEditor: View {
                     return Alert(title: Text("錯誤!!"), message: Text("路線不能為空白"))
                 }
                )
-                   .onAppear {//修改資料時將資料存入map,weight,trueHeart,觸發畫面更新,讓畫面顯示資料
+                   .onAppear {//修改資料時將資料存入map,time,trueHeart,sunmax,Ocean,landscape,觸發畫面更新,讓畫面顯示資料
                        if let editroute = self.editroute {
                            self.map = editroute.map
                            self.time = editroute.time
